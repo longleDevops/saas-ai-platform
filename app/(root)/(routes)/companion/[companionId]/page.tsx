@@ -7,6 +7,8 @@ interface CompanionIdPageProps{
   }
 }
 
+{/*This is the main page for companion form, it fetches the data in server-side then pass the props to the client side component*/}
+
 const page = async ({params}:CompanionIdPageProps) => {
   //TODO: Check subscription
 
